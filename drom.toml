@@ -5,13 +5,13 @@ drom-version = "0.1"
 authors = ["Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>"]
 ci-systems = ["ubuntu-latest", "macos-latest"]
 copyright = "OCamlPro SAS"
-edition = "4.10.0"
+edition = "5.0.1"
 github-organization = "ocamlpro"
 license = "LGPL2"
-min-edition = "4.07.0"
+min-edition = "5.0.1"
 name = "ez_config"
 synopsis = "Easy management of configuration files"
-version = "0.2.0"
+version = "0.2.1"
 
 # keys that you could also define:
 # odoc-target = "...odoc-target..."
@@ -25,7 +25,7 @@ version = "0.2.0"
 
 [project]
 description = """EzConfig can be used to manage a configuration file with OCaml lexing
-conventions (string escaping, comments). It was initially used by 
+conventions (string escaping, comments). It was initially used by
 MLdonkey and is close to ocaml-config.
 """
 
@@ -37,7 +37,7 @@ skip = ["CHANGES.md", "src/ez_config/main.ml"]
 
 # project-wide tools dependencies (not for package-specific deps)
 [tools]
-dune = "2.6.0"
+dune = "3.12.1"
 [tools.ocamlformat]
 for-test = true
 [tools.odoc]
@@ -72,4 +72,3 @@ share-dirs = ["share"]
 [[package]]
 dir = "src/ez_config"
 # edit 'src/ez_config/package.toml' for package-specific options
-

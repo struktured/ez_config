@@ -4,9 +4,7 @@
   (name ezConfig)
   (public_name ez_config)
   (wrapped true)
-  (libraries ez_file )
-  
-  
+  (libraries ez_file camlp-streams)
   )
 
 
@@ -17,5 +15,3 @@
 
 (documentation
   (package ez_config))
-
-
